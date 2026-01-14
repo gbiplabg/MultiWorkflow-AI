@@ -16,7 +16,7 @@ from services.rag import vector_store, UPLOAD_DIR, load_and_split_pdf_dynamic, a
 from services.flow_graph import flow_graph
 
 
-app = FastAPI(title="INORBVICT AI")
+app = FastAPI(title="INO AI")
 templates = Jinja2Templates(directory="templates")
 
 
